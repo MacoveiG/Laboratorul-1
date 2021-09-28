@@ -117,11 +117,11 @@ public class Main {
         //OOP
         Main2 myObj = new Main2();
         myObj.hello();
-        System.out.println("Age: " + myObj.age);
-        System.out.println(myObj.fName);
-        Main2 myObj2 = new Main2("MM","NN",5);
+        System.out.println("Age: " + myObj.getAge());
+        System.out.println(myObj.getFName());
+        Main2 myObj2 = new Main2("MM", "NN", 5);
         myObj2.hello();
-        System.out.println(myObj2.age);
+        System.out.println(myObj2.getAge());
 
     }
 
