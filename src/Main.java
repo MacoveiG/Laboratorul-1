@@ -115,13 +115,16 @@ public class Main {
         System.out.println(sum(10));
 
         //OOP
-        Main2 myObj = new Main2();
-        myObj.hello();
-        System.out.println("Age: " + myObj.getAge());
-        System.out.println(myObj.getFName());
-        Main2 myObj2 = new Main2("MM", "NN", 5);
-        myObj2.hello();
-        System.out.println(myObj2.getAge());
+        Persoana persoana = new Persoana();
+        persoana.hello();
+        System.out.println("Age: " + persoana.getAge());
+        System.out.println(persoana.getFirstName());
+
+        Persoana persoana2 = new Persoana("MM", "NN", 5);
+        persoana2.hello();
+        System.out.println(persoana2.getAge());
+        persoana2.setFirstName("Nume1");
+        persoana2.setAge(6);
 
     }
 
